@@ -126,7 +126,7 @@ img{
   background-color: black;
   width: 150px;
   justify-content: center;
-  padding: 50px;
+  padding: 30px;
   border-radius: 15px;
 }
 .electricity{
@@ -134,7 +134,7 @@ img{
   background-color: black;
   width: 150px;
   justify-content: center;
-  padding: 50px;
+  padding: 30px;
   border-radius: 15px;
 }
 .water{
@@ -142,12 +142,20 @@ img{
   background-color: black;
   width: 150px;
   justify-content: center;
-  padding: 50px;
+  padding: 30px;
   border-radius: 15px;
 }
 footer{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 60px;
+  margin-top: 50px;
+}
+.footers i{
+  font-size: xx-large;
+  padding: 0px 30px;
+}
+.footers i:hover , .footers i:focus{
+  color:red;
+  transform: scale(1.2);
 }
